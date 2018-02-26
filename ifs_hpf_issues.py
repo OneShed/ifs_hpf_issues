@@ -8,7 +8,7 @@ import json
 from jsonmerge import merge
 
 username='ifsadm'
-passwd='hes5!wucRusece'
+passwd=''
 
 hpfortify_api='/local/git/hpfortify_api'
 json_filename = '/usr/local/share/ifs_hpf_issues/ifs_hpf_issues.json'

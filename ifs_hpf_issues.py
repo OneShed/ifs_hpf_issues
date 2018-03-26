@@ -8,7 +8,7 @@ import json
 from jsonmerge import merge
 
 username='ifsadm'
-passwd=''
+passwd='hes5!wucRusece'
 
 hpfortify_api='/local/git/hpfortify_api'
 json_filename = '/usr/local/share/ifs_hpf_issues/ifs_hpf_issues.json'
@@ -25,8 +25,9 @@ def write_file(json_proj):
 	issues_file.close()
 
 projects=(
-        'AID026_Vestima_IFRD_UNIX',
         'AID026_Vestima_VESTIMA_PLUS_UNIX',
+        'AID026_Vestima_IFRD_UNIX',
+        'AID026_Vestima_OXYGEN_UNIX',
         'AID201_CDOC_CDOC_UNIX',
         'AID202_CCS_CCS_UNIX',
         'AID202_CCS_CCS_CORE_NT',

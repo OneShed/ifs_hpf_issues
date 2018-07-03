@@ -28,6 +28,7 @@ projects=(
         'AID026_Vestima_VESTIMA_PLUS_UNIX',
         'AID026_Vestima_IFRD_UNIX',
         'AID026_Vestima_OXYGEN_UNIX',
+        'AID455_Oxygen_OXYGEN_UNIX',
         'AID201_CDOC_CDOC_UNIX',
         'AID202_CCS_CCS_UNIX',
         'AID202_CCS_CCS_CORE_NT',

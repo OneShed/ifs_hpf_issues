@@ -5,7 +5,6 @@
 import sys
 import os
 import json
-from jsonmerge import merge
 
 username='ifsadm'
 passwd='hes5!wucRusece'

@@ -224,7 +224,7 @@ sub add_tables {
         for my $vers ( sort \%{$issues{$proj}}) {
 	    foreach my $ver ( sort keys %{$vers} ) {
 	    my $issue_content = "
-		$issues{$proj}{$ver}{'Critical'},
+		$issues{$proj}{$ver}{'Critical_a'}/$issues{$proj}{$ver}{'Critical'},
 		$issues{$proj}{$ver}{'High'},
 		$issues{$proj}{$ver}{'Medium'},
 		$issues{$proj}{$ver}{'Low'}
@@ -251,7 +251,7 @@ MESSAGE
 </thead>
 <thead>
     <th>Version</th>
-    <th>Critical, High, Medium, Low</th>
+    <th>Critical (audited/total), High, Medium, Low </th>
     <th>Scan time</th>
 </thead>
 MESSAGE

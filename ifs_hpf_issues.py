@@ -12,7 +12,7 @@ from jsonmerge import merge
 username='ifsadm'
 
 hpfortify_api='/local/git/hpfortify_api'
-json_filename = '/usr/local/share/ifs_hpf_issues/ifs_hpf_issues.json'
+json_filename = '/tmp/ifs_hpf_issues.json'
 datadir = os.path.join(hpfortify_api, 'data')
 
 sys.path.append(hpfortify_api)
